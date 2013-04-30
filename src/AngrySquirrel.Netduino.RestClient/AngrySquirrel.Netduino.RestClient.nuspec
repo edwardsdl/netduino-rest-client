@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/edwardsdl/netduino-rest-client/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/edwardsdl/netduino-rest-client</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2013</copyright>
+    <tags>C# Netduino REST</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\**\" target="lib\netmf42" exclude="**.dll;**.pdb"/>
+  </files>
+</package>
