@@ -47,6 +47,12 @@ namespace AngrySquirrel.Netduino.RestClient
                         break;
                     }
                 }
+                catch (Exception e)
+                {
+                    #if DEBUG
+                    Console.WriteLine("Error connecting to host: " + e.Message);
+                    #endif
+                }
                 finally
                 {
                     socket.Close();
